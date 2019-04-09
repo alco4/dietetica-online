@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@import url('https://fonts.googleapis.com/css?family=Dokdo|PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Gochi+Hand');
+.App {
+  text-align: center;
+  overflow-y: hidden;
+  height: 101%;
+  width: 101%;
+  background: url("./imgs/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-body {
+  overflow-y: scroll;
+  width: 100vw;
+  height: 111vh;
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-container {
+  max-width: 600px;
+  max-height: 600px;
+margin-top:50px;
+  min-height: 500px;
+  border-radius: 28px 28px 28px 28px;
+  -moz-border-radius: 28px 28px 28px 28px;
+  -webkit-border-radius: 28px 28px 28px 28px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background: linear-gradient(rgb(94, 48, 5, 0.4), rgb(94, 48, 5, 0.4));
+  border: 3px solid tomato;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

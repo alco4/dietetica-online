@@ -1,0 +1,23 @@
+{
+  "name": "dietetica-online",
+  "version": "1.0.0",
+  "description": "Store de venta de productos diversos relacionado a las plantas y su cuidado.",
+  "main": "server.js",
+  "scripts": {
+    "install": "cd client && npm install",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "start": "npm run server & npm run client"
+  },
+  "author": "Alan Corcos",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mercadopago": "^1.0.23",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20",
+    "node-sass": "^4.11.0"
+  }
+}

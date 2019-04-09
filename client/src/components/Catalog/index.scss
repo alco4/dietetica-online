@@ -1,0 +1,41 @@
+a{
+  color:black;
+}
+a:link    { text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover   {text-decoration: none;}
+#catalog img{
+  width:90px;
+  height:90px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.catalog-item{
+  width: 50%;
+  margin-top: 10px;
+  
+
+}
+.catalog-title{
+  font-family: 'Cedarville Cursive', cursive;
+  width:400px;
+  height:40px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.catalog-item:hover {
+  transition: 0.5s;
+  transform:scale(1.2, 1.2);
+} 
+.decoration{
+ position:absolute;
+ lefT:380px;
+}
+.animationLoad{
+  width:200px;
+}
+/* Font from Google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900');
+

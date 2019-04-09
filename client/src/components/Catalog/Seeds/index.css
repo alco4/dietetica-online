@@ -1,0 +1,20 @@
+#seedsList {
+  padding: 0;
+  height: 100%;
+}
+
+.seed-item {
+  border: solid 1px brown;
+  width: 550px;
+  background: darkorange;
+  background-repeat: no-repeat;
+  background-size: fixed;
+  height: 40px;
+  list-style-type: none;
+  color: green;
+}
+
+.seed-item:hover {
+  transition: 0.5s;
+  transform: scale(.95, 1.0);
+}

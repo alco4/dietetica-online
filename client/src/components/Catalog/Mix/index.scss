@@ -1,0 +1,86 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  color:rgb(122, 121, 121);
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { 
+  color:green;
+  content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+
+.footerMix{
+  display:flex;
+}
+.btn{
+  margin:10px;
+}
+.fas{
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.mix-list{
+ text-align:left;
+ padding-left:0px;
+ min-width:300px;
+}
+.mix-item{
+  border: 0.5px solid #F8AF31;
+  max-width: 440px;
+  height: 35px;
+  margin:2px;
+  padding:0px 12px 0px 12px;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  list-style-type: none;
+  color: white;
+}
+@media (max-width: 600px) {
+  .mix-item{
+    border: 0.5px solid #F8AF31;
+    min-width: 300px;
+    margin:5px;
+    padding-left:12px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    height: 30px;
+    list-style-type: none;
+    color: white;
+  }
+}
+.frasco-mix{  
+  align-self: center; 
+  width:100px;
+  height:200px;
+  border-radius: 24px 24px 24px 24px;
+  -moz-border-radius: 24px 24px 24px 24px;
+  -webkit-border-radius: 24px 24px 24px 24px;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.frasco-container{
+  width:100%;
+display: inline-flex;
+flex-flow: row wrap;
+-webkit-flex-flow: row wrap;
+justify-content: space-around;
+}
+.buy-container{
+  height:20px
+}
+.selected-seed{
+  border-radius:  6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+i{
+  font-size: 14px;
+}

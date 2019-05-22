@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 
 const Categories = ({ name }) => (
   <div id='catalog' className='main-container'>
-    <div className='catalog-title'>
+
+  </div>
+);
+/*
+   <div className='catalog-title'>
       <h3>Catálogo</h3>
     </div>
 
@@ -42,7 +46,5 @@ const Categories = ({ name }) => (
         </div>
       </Link>
     </div>
-  </div>
-);
-
+    */
 export default Categories;

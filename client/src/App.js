@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Catalog from './components/Catalog/index.js';
 import Header from "./components/Header/index.js";
+import Offer from "./components/Offer/index.js";
 
 class App extends Component {
 
@@ -19,8 +20,15 @@ class App extends Component {
         <div className="App-header">
           <Header />
         </div>
+        <div className="App-promotion">
+          <div className="rombo"></div>
+        </div>
+        <div className="App-offers">
+          <Offer />
+          <Offer />
+          <Offer />
+        </div>
         <div className="App-body">
-          <Catalog />
         </div>
         <div>
         </div>

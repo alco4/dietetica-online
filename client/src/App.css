@@ -14,10 +14,41 @@
   font-size: 100%;
 }
 
+.App-header {
+  background-color: black;
+  height: 40px;
+  border-top: 2px solid tomato;
+  border-bottom: 1px solid tomato;
+  position: fixed;
+  width: 100%;
+  color: white;
+  z-index: 2;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-promotion {
+  position: relative;
+  top: 41px;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid tomato;
+  background: url('https://image.freepik.com/foto-gratis/mezcla-frutos-secos-fruta_23-2147689644.jpg')
+}
+
+.App-offers {
+  margin-top:80px;
+  width:100%;
+  height:200px;
+  background-color:white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-body {
@@ -33,14 +64,29 @@
   color: white;
 }
 
+.rombo {
+  position: relative;
+  top: 70px;
+  left: 40px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid #555;
+  background: #428bca;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 .App-link {
   color: #61dafb;
 }
 
 .main-container {
-  max-width: 600px;
+  width: 1009px;
   max-height: 600px;
-margin-top:50px;
+  margin-top: 50px;
   min-height: 500px;
   border-radius: 28px 28px 28px 28px;
   -moz-border-radius: 28px 28px 28px 28px;

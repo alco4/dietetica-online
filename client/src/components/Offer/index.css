@@ -1,0 +1,22 @@
+.offer-container{
+    width: 150px;
+    height: 150px;
+    margin:50px;
+    border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+
+    background: #8D5F46;   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 3px solid tomato; 
+}
+
+.offer-img{
+    width:150px;
+    height:150px;
+
+    background: url("https://http2.mlstatic.com/nuez-con-cascara-chandler-extra-light-mendoza-1-kg-envio-D_NQ_NP_748569-MLA26529886089_122017-O.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

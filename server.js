@@ -11,6 +11,23 @@ app.use(BodyParser.urlencoded({ extended: true }));
 
 app.set("PORT", process.env.PORT || 5000);
 
+app.post("/", (req, res) => {
+  console.log('fafafafa');
+  console.log(res.res);
+  const token = req.body.token;
+  const payment_method_id = req.body.payment_method_id;
+  const installments = req.body.installments;
+  const issuer_id = req.body.issuer_id;
+  console.log(token);
+
+  res.send('dbResponse');
+})
+app.get("/", (req, res) => {
+  console.log('fafafafa');
+
+  res.send('dbResponse');
+})
+
 app.get("/api", (req, res) => {
   db_connector.getCollection(req.query.collectionEndpoint, (dbResponse) => {
     res.send(dbResponse);

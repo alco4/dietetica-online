@@ -7,8 +7,9 @@
   overflow-y: hidden;
   height: 101%;
   width: 101%;
-  background: url("./imgs/fondo.jpg");
+  background: url('http://www.sistemaslimobel.com/images/muestras/melamina/caviar.jpg');
   background-repeat: no-repeat;
+
   background-size: 100% 100%;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 100%;
@@ -17,6 +18,9 @@
 .App-header {
   background-color: black;
   height: 40px;
+  padding-top:20px;
+  padding-bottom:20px;
+
   border-top: 2px solid tomato;
   border-bottom: 1px solid tomato;
   position: fixed;
@@ -33,19 +37,25 @@
 
 .App-promotion {
   position: relative;
-  top: 41px;
+  top: 82px;
   background-color: white;
   width: 100%;
-  height: 200px;
+  height: 300px;
   border-bottom: 1px solid tomato;
-  background: url('https://image.freepik.com/foto-gratis/mezcla-frutos-secos-fruta_23-2147689644.jpg')
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/52/96/0357958e1a2814b.jpg');
+  background-size: 100% 100%;
+ 
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 .App-offers {
-  margin-top:80px;
-  width:100%;
-  height:200px;
-  background-color:white;
+  margin-top: 80px;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 150px;
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
@@ -77,6 +87,19 @@
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.certificate-img {
+  background: url('https://algalia.com/wp-content/uploads/2017/05/Certificado_calidad-300x206.png');
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-transform: rotate(425deg);
+  -moz-transform: rotate(411deg);
+  -ms-transform: rotate(411deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(314deg);
 }
 
 .App-link {

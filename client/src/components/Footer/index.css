@@ -1,0 +1,16 @@
+.footer-container {
+    margin-top: 20px;
+    background-color: black;
+    height: 200px;
+    opacity: 0.5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-links {
+    width: 200px;
+    height: 140px;
+    margin: 100px;
+    border: 2px solid red;
+}

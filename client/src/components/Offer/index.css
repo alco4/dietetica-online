@@ -2,21 +2,30 @@
     width: 150px;
     height: 150px;
     margin:50px;
-    border-radius: 28px 28px 28px 28px;
-    -moz-border-radius: 28px 28px 28px 28px;
-    -webkit-border-radius: 28px 28px 28px 28px;
-
-    background: #8D5F46;   
-    background-repeat: no-repeat;
+  background: url('https://images.vexels.com/media/users/3/69903/preview2/b1202f9d5ab8545465b126a9a3916881-estante-de-madera-realista-con-luces.jpg');
+  background-repeat: no-repeat;
     background-size: 100% 100%;
-    border: 3px solid tomato; 
 }
 
 .offer-img{
-    width:150px;
-    height:150px;
-
-    background: url("https://http2.mlstatic.com/nuez-con-cascara-chandler-extra-light-mendoza-1-kg-envio-D_NQ_NP_748569-MLA26529886089_122017-O.webp");
+    width:120px;
+    height:120px;
+    margin-top:30px;
+    margin-left:15px;
+    background: url('http://grupofarm.com.mx/images/frutos_secos/nueces_india_horneadas.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 80% 80%;
+}
+.offer-price{
+    margin:5px;
+    position:absolute;
+    color:red;
+    font-size: 20px;
+    -moz-transform: rotate(352deg);
+    -webkit-transform: rotate(352deg);
+    -o-transform: rotate(352deg);
+    -ms-transform: rotate(352deg);
+    transform: rotate(352deg);
+    border: solid 2px orangered;
+
 }

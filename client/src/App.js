@@ -3,6 +3,7 @@ import './App.css';
 import Catalog from './components/Catalog/index.js';
 import Header from "./components/Header/index.js";
 import Offer from "./components/Offer/index.js";
+import Footer from "./components/Footer/index.js";
 
 class App extends Component {
 
@@ -21,17 +22,18 @@ class App extends Component {
           <Header />
         </div>
         <div className="App-promotion">
-          <div className="rombo"></div>
         </div>
         <div className="App-offers">
           <Offer />
           <Offer />
           <Offer />
         </div>
-        <div className="App-body">
+        <div className="App-offers">
+          <Offer />
+          <Offer />
+          <Offer />
         </div>
-        <div>
-        </div>
+        <Footer/>
       </div>
     );
   }

@@ -55,6 +55,7 @@ class Catalog extends Component {
             <Route exact path="/" component={Categories} />
             <Route path="/seeds" render={() => <Seeds {...this.state} isAuthed={true} />} />
             <Route path="/mix" render={() => <Mix {...this.state} isAuthed={true} />} />
+            <Route path="/procesar-pago" render={() => <Mix {...this.state} isAuthed={true} />} />
           </div>
         }
 
